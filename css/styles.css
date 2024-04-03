@@ -169,8 +169,8 @@ a {
 
 /* Секция 2 */
 .section-two-styles {
-  padding: 120px 0;
-  padding-bottom: 120px 0;
+  padding: 120px;
+  padding-bottom: 120px;
 }
 
 .section-second-text,
@@ -183,6 +183,8 @@ a {
   text-align: left;
   color: #2E2F42;
   margin-bottom: 8px;
+  display: flex;
+  margin-right: 24px
 }
 .section-second-text .paragraph-section-second {
   font-family: "Roboto", sans-serif;
@@ -247,8 +249,8 @@ a {
 }
 /* Секция 4 */
 .section-four {
-  padding-top: 120px 0;
-  padding-bottom: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-three {
@@ -302,7 +304,9 @@ a {
 .footer-logo-second {
   color: #f4f4fd;
 }
-
+.paragraph {
+  max-width: 264px;
+}
 .footer-background {
   padding: 100px 0;
   background-color: #2E2F42;
