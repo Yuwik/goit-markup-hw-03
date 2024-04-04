@@ -47,7 +47,6 @@ a {
   font-style: normal;
 
 }
-
 /* СТИЛИ */
 /* НАВИГАЦИЯ */
 
@@ -69,16 +68,17 @@ a {
 .logo-head-second {
   color: #2e2f42;
 }
+ 
 .head-page .link-head {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: left;
   color: #2E2F42;
   display: block;
-
+  
 }
 
 .head-page .link-head:hover {
@@ -169,7 +169,7 @@ a {
 
 /* Секция 2 */
 .section-two-styles {
-  padding: 120px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -184,7 +184,8 @@ a {
   color: #2E2F42;
   margin-bottom: 8px;
   display: flex;
-  margin-right: 24px
+  margin-right: 24px;
+  gap: 24px;
 }
 .section-second-text .paragraph-section-second {
   font-family: "Roboto", sans-serif;
