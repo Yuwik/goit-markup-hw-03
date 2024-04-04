@@ -50,6 +50,7 @@ a {
 /* СТИЛИ */
 /* НАВИГАЦИЯ */
 
+
 .logo-head {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -76,7 +77,7 @@ a {
 }
  .header-nav {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
@@ -109,6 +110,7 @@ a {
 
 .addres-class {
   font-style: normal;
+  text-align: right;
 }
 
 .contacts .my-contacts {
@@ -122,7 +124,7 @@ a {
   margin-right: 0;
   padding: 24px 0;
   display: flex;
-  
+  border-bottom: 1px solid #e7e9fc; 
 }
 
 .contacts .my-contacts:hover {
@@ -187,8 +189,8 @@ a {
 
 /* Секция 2 */
 .section-two-styles {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
+  padding-bottom: 120px 0;
 }
 
 .section-second-text,
