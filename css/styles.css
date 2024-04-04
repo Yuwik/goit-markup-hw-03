@@ -54,21 +54,34 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
   font-optical-sizing: auto;
   line-height: 1.17;
   color: #4d5ae5;
   text-transform: uppercase;
-  display: flex;
   margin-top: 10px;
   margin-right: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  width: 115px;
+  height: 24px;
 }
+
 .logo-head-second {
   color: #2e2f42;
 }
- 
+ .header-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+
+ }
 .head-page .link-head {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -78,7 +91,10 @@ a {
   text-align: left;
   color: #2E2F42;
   display: block;
-  
+  align-items: center;
+  display: flex;
+  width: 30px;
+  height: 24px;
 }
 
 .head-page .link-head:hover {
@@ -101,10 +117,12 @@ a {
   line-height: 24px;
   font-size: 16px;
   letter-spacing: 0.02em;
-  text-align: right;
+  align-items: right;
   color: #434455;
   margin-right: 0;
   padding: 24px 0;
+  display: flex;
+  
 }
 
 .contacts .my-contacts:hover {
